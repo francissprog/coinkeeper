@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 CoinKeeper — Next.js + TailwindCSS + shadcn/ui
 
-## Getting Started
+**CoinKeeper** is a modern, responsive **Expense Tracker** built with **Next.js (App Router)**, **TailwindCSS**, and **shadcn/ui**.  
+Track your spending, view insights with charts, and enjoy a clean dark/light mode UI — all in your browser with `localStorage` persistence.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **📊 Track Expenses** — Add transactions with amount, category, and date.
+- **🗂 Organized Table** — View all transactions in a clean, sortable table.
+- **📈 Visual Insights** — See spending trends via pie or bar chart.
+- **🌓 Dark Mode** — Toggle between light and dark themes with one click.
+- **📱 Fully Responsive** — Works seamlessly on mobile, tablet, and desktop.
+- **💾 Offline Persistence** — Data saved in `localStorage` (no backend needed).
+- **🎨 Modern UI** — Powered by shadcn/ui components for a sleek look.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **[Next.js](https://nextjs.org/)** (App Router)
+- **[TailwindCSS](https://tailwindcss.com/)**
+- **[shadcn/ui](https://ui.shadcn.com/)**
+- **[next-themes](https://github.com/pacocoursey/next-themes)** (dark mode)
+- **[Recharts](https://recharts.org/en-US/)** (data visualization)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+.git/
+app/
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+components/
+└── ui/
+├── button.tsx
+├── card.tsx
+├── input.tsx
+├── select.tsx
+├── switch.tsx
+├── table.tsx
+├── mode-toggle.tsx
+└── theme-provider.tsx
+lib/
+└── utils.ts
