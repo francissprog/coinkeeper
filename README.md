@@ -29,21 +29,21 @@ Track your spending, view insights with charts, and enjoy a clean dark/light mod
 
 ## 📂 Project Structure
 
-.git/
-app/
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-└── page.tsx
-components/
-└── ui/
-├── button.tsx
-├── card.tsx
-├── input.tsx
-├── select.tsx
-├── switch.tsx
-├── table.tsx
-├── mode-toggle.tsx
-└── theme-provider.tsx
-lib/
-└── utils.ts
+- .git/
+- app/
+- ├── favicon.ico
+- ├── globals.css
+-  ├── layout.tsx
+-  └── page.tsx
+-  components/
+-  └── ui/
+-  ├── button.tsx
+-  ├── card.tsx
+-  ├── input.tsx
+-  ├── select.tsx
+-  ├── switch.tsx
+-  ├── table.tsx
+-  ├── mode-toggle.tsx
+-  └── theme-provider.tsx
+-  lib/
+-  └── utils.ts
